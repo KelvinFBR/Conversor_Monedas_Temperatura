@@ -408,28 +408,28 @@ public class Conversor extends javax.swing.JFrame {
             if (isValid) {
                 if (typeObjectConverter == "DOP a USD") {
                     Object data = convertidor.pesoADolar(currencyField.getText());
-                    message = "El cambio de DOP a USD es: " + Math.ceil((double) data) + "USD";
+                    message = "El cambio de DOP a USD es: " + data + "USD";
                 }
 
                 if (typeObjectConverter == "DOP a Euro") {
                     Object data = convertidor.pesoAEuro(currencyField.getText());
-                    message = "El cambio de DOP a Euro es: " + Math.ceil((double) data) + "EUR";
+                    message = "El cambio de DOP a Euro es: " + data + "EUR";
                 }
 
 
                 if (typeObjectConverter == "DOP a COP") {
                     Object data = convertidor.pesoAColombiano(currencyField.getText());
-                    message = "El cambio de DOP a COP es: " + Math.ceil((double) data) + "COP";
+                    message = "El cambio de DOP a COP es: " + data + "COP";
                 }
 
                 if (typeObjectConverter == "DOP a MXN") {
                     Object data = convertidor.pesoAMexicano(currencyField.getText());
-                    message = "El cambio de DOP a MXN es: " + Math.ceil((double) data) + "MXN";
+                    message = "El cambio de DOP a MXN es: " + data + "MXN";
                 }
                 
                 if (typeObjectConverter == "DOP a BTC") {
                     Object data = convertidor.PesoABitcoin(currencyField.getText());
-                    message = "El cambio de DOP a BTC es: " + Math.ceil((double) data) + "BTC";
+                    message = "El cambio de DOP a BTC es: " + data + "BTC";
                 }
                 
                 //temperaturas
@@ -447,25 +447,26 @@ public class Conversor extends javax.swing.JFrame {
                 //conversiones invertidos                
                 if (typeObjectConverter == "BTC a DOP") {
                     Object data = convertidor.bitcoinAPeso(currencyField.getText());
-                    message = "El cambio de DOP a MXN es: " + Math.ceil((double) data) + "DOP";
+                    message = "El cambio de BTC a DOP es: " + data + "DOP";
                 }
                 
                 if (typeObjectConverter == "USD a DOP") {
                     Object data = convertidor.dolarAPeso(currencyField.getText());
-                    message = "El cambio de USD a DOP es: " + Math.ceil((double) data) + "DOP";
+                    message = "El cambio de USD a DOP es: " + data + "DOP";
                 }
-                if (typeObjectConverter == "USD a DOP") {
-                    Object data = convertidor.dolarAPeso(currencyField.getText());
-                    message = "El cambio de USD a DOP es: " + Math.ceil((double) data) + "DOP";
+                
+                if (typeObjectConverter == "Euro a DOP") {
+                    Object data = convertidor.euroAPeso(currencyField.getText());
+                    message = "El cambio de Euro a DOP es: " + data + "DOP";
                 }
                 
                 if (typeObjectConverter == "COP a DOP") {
                     Object data = convertidor.colombianoAPeso(currencyField.getText());
-                    message = "El cambio de COP a DOP es: " + Math.ceil((double) data) + "DOP";
+                    message = "El cambio de COP a DOP es: " + data + "DOP";
                 }
                 if (typeObjectConverter == "MXN a DOP") {
                     Object data = convertidor.mexicanoAPeso(currencyField.getText());
-                    message = "El cambio de MXN a DOP es: " + Math.ceil((double) data) + "DOP";
+                    message = "El cambio de MXN a DOP es: " + data + "DOP";
                 }
                 
                 //Aqui se agregara el valor de la conversion
