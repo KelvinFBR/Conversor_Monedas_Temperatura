@@ -4,15 +4,15 @@ En esta aplicacion aplique mis conocimientos de la programacion orientada a obje
 En este conversor puedes hacer conversiones de peso dominicano a: 
 - Dolar
 - Colombiano
-- Cexicano
+- Mexicano
 - Bitcoin
 
 > Tambien de puede realizar la conversion inversa.
 
 Tambien podemos hacer conversiones de:
 
-- Celcius a Fahrenheit
-- Fahrenheit a Celcius 
+- celsius a Fahrenheit
+- Fahrenheit a celsius  
 
 
 ## Tecnologías Utilizadas
